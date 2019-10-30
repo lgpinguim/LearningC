@@ -25,8 +25,8 @@ int main()
 
 }
 
-\\ If you write 10 and 7 for example the cin will read the first number and store it and after that it will read the second number and store it imediately, so you will need to input the numbers just one time instead of two: 
+If you write 10 and 7 for example the cin will read the first number and store it and after that it will read the second number and store it imediately, so you will need to input the numbers just one time instead of two: 
 
-Wrtie one number: 10 20
+For reference  use the MultipleCin repository
 
 ------------------------------------------------------------------------------------------------------------------------------------------
