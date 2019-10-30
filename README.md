@@ -30,3 +30,6 @@ If you write 10 and 7 for example the cin will read the first number and store i
 For reference  use the MultipleCin repository
 
 ------------------------------------------------------------------------------------------------------------------------------------------
+
+30/10/2019
+Reviewing variables and constants
