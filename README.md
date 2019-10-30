@@ -1,8 +1,11 @@
 # LearningC
 C++ code repository
+-----------------------------------------------------------------------------------------------------------------------------------------
+
 16/10/2019
 I played a litte with the cout and cin operators, manipulating the exibition and entry of variables.
 see program favorite number for reference.
+
 ------------------------------------------------------------------------------------------------------------------------------------------
 29/10/2019 
 I learned today that we can use cin to recieve multiple values in one line, while also practicing the use of namespaces. Example:
@@ -25,3 +28,5 @@ int main()
 \\ If you write 10 and 7 for example the cin will read the first number and store it and after that it will read the second number and store it imediately, so you will need to input the numbers just one time instead of two: 
 
 Wrtie one number: 10 20
+
+------------------------------------------------------------------------------------------------------------------------------------------
