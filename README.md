@@ -32,4 +32,22 @@ For reference  use the MultipleCin repository
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 30/10/2019
-Reviewing variables and constants
+Reviewing variables and constants:
+binding - associate a name with a variable memory location
+
+but what is a variable ?
+A variable is a abstraction for a memory location, allowing programmers to use meaningful names and not memory addresses. 
+they have type (int, bool, string....) and value (10, "Hello there", 3.14)
+THEY MUST BE DECLARED BEFORE THEY ARE USED.
+a variable value may change.
+
+
+
+
+
+
+
+
+
+
+
