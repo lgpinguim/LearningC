@@ -3,12 +3,12 @@ C++ code repository
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 16/10/2019
-I played a litte with the cout and cin operators, manipulating the exibition and entry of variables.
+I played a little with the cout and cin operators, manipulating the exhibition and entry of variables.
 see program FavoriteNumber for reference.
 
 ------------------------------------------------------------------------------------------------------------------------------------------
 29/10/2019 
-I learned today that we can use cin to recieve multiple values in one line, while also practicing the use of namespaces. Example:
+I learned today that we can use cin to receive multiple values in one line, while also practicing the use of namespaces. Example:
 
 #include <iostream>
 using namespace std; 
@@ -25,7 +25,7 @@ int main()
 
 }
 
-If you write 10 and 7 for example the cin will read the first number and store it and after that it will read the second number and store it imediately, so you will need to input the numbers just one time instead of two: 
+If you write 10 and 7 for example the cin will read the first number and store it and after that it will read the second number and store it immediately, so you will need to input the numbers just one time instead of two: 
 
 For reference  use the MultipleCin repository
 
@@ -90,6 +90,29 @@ cout << "The area of the room is " << room_width * room_length << " square feet"
 
 return 0;
 }
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+01/11/19
+
+Local vs Global variables:
+
+Local - scope or visibility is limited on the scope that the variable is declared
+
+Global - Can be accessed anywhere on the program - automatically initialized to 0
+
+Primitive data types (fundamental):
+char \ int \ float \ bool - size and precision is compiler dependent.
+
+char - single characters.
+
+int - whole numbers (signed and unsigned) 
+unsigned = 0 and positive.
+
+float - floating point, represents non-integer numbers.
+
+bool - true or false.
+0 is false.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
