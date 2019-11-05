@@ -155,10 +155,38 @@ to declare a literal contant you should declare it and initialize it:
 const double pi {3.14};
 
 ----------------------------------------------------------------------------------------------------------------------------------
+ 05/11/2019
+ learning my ropes with visual studio code, here is a program to study constants: 
+ 
+Before constants:
 
+\\Here we have a problem if someone replace all the values of 30, we could mess um the amount of time the estimate is valid.
 
+#include <iostream>
 
-	
+using namespace std;
+
+int main(){
+
+cout << "Hello, welcome to Penguim's Carpet Cleaning Service!" << endl;
+cout << "\nHow many rooms would you like cleaned? ";
+
+int number_of_rooms{0};
+cin >> number_of_rooms;
+
+cout << "\nEstimate for carpet cleaning service" << endl;
+cout << "Number of Rooms:" << number_of_rooms << endl;
+cout << "Price per room: $" << 30 << endl;
+cout << "Cost: $" << 30 * number_of_rooms << endl;
+cout << "Tax: $" << 30 * number_of_rooms * 0.06 << endl;
+cout <<"=======================================" << endl;
+cout << "Total estimate: $" << (30* number_of_rooms) + (30 * number_of_rooms * 0.06) << endl;
+cout << "this estimate is valid for " << 30 << " days" << endl;
+
+return 0;
+}
+
+-- will continue soon --
 
 
 
