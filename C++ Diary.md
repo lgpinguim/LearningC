@@ -116,6 +116,30 @@ bool - true or false.
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 
+04/11/2019
+sizeof operator - determines the size in bytes of a type or variable.
+
+examples
+
+sizeof(int)
+sizeof(double)
+sizeof some_variable
+
+Gets information from <climits> (integral types) and <cfloat> (floating point types). 
+also we can use some interesting functions:
+	
+	CHAR_MIN - MINIMUM value that can be stored
+	...._MIN - you can use it with integers, chars, and etc
+	
+	CHAR_MAX - MAXIMUM value that can be stored
+	
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+	
+	
+	
+
 
 
 
