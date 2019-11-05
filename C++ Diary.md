@@ -135,9 +135,29 @@ also we can use some interesting functions:
 	
 ----------------------------------------------------------------------------------------------------------------------------------
 
+04/11/2019 
+Constants:
 
-	
-	
+Have names.
+Occupy storage.
+Are usually typed.
+
+HOWEVER, THEIR VALUE CANNOT CHANGE ONCE DECLARED!!!!!
+
+if  const age {21} - we can't change it. 
+
+consts are good for meaningful things that should be changed with caution.
+
+Literal - used to express specific values:
+x = 12;
+
+to declare a literal contant you should declare it and initialize it:
+const double pi {3.14};
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
 	
 
 
