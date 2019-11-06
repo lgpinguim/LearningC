@@ -237,7 +237,97 @@ return 0;
 
 now as you can see, the code is much cleaner and understandable.
 
+--------------------------------------------------------------------------------------------------------------------------------------- 
 
+Arrays and Vectors:
+
+Array:
+	compound data type \ data structure.
+	is made of other data types, for example a collection of test scores, where each score is an integer ( array of integers).
+	all elements are of the same type.
+	Each element can be accessed directly.
+
+why we use them?
+	When we need to work with a collection of items that have the same type, for example working with 100 student grades, insted of creating 100 variables we can create an array that can store 100 elements.
+	
+Characteristics o an array:
+
+	Fixed size, once created the size can't change.
+	all elements are the same type.
+	individual elements can be accessed by their position or index.
+	first element is 0.
+	last element is at index size -1.
+	there is no check to see if you are out of bounds.
+	always initialize.
+	very efficent.
+
+Declaring and initializing
+
+Declaring:
+	Element_type array_name[Constant number of elements];
+	
+	int test-scores[5]; // array of 5 integers
+
+	int high_score_per_level[10]; // array of 10 integers
+
+	const double days_in_year{365};
+	double hi_temperature [days_in_year]; //array of 365 doubles
+	
+Initialization
+
+		Element_type array_name[number of elements] {init list};
+		
+		int test-scores[5] {100,95,99,87,88};
+		
+		int high_score_per_level[10] {3,5};
+		
+		const double days_in_year{365};
+		double hi_temperature [days_in_year] {0};
+		
+		int another_array [] {1,2,3,4,5} // declaring in a way where the compiler creates the array according to the number of variables in the initialization.
+		
+		
+Accessing:
+
+	array_name[number of elements]
+	test-scores[5]; // will access the value in brakets
+	
+	int test-scores[5] {100,95,99,87,88};
+	cout << "Value at index 0: " << test_scores[0] << endl;
+	cout << "Value at index 1: " << test_scores[1] << endl;
+	cout << "Value at index 2: " << test_scores[2] << endl;
+	cout << "Value at index 3: " << test_scores[3] << endl;
+	cout << "Value at index 4: " << test_scores[4] << endl;
+
+Changing Values:
+
+	int test-scores[5] {100,95,99,87,88};
+
+	cin >> "Value at index 0: " << test_scores[0] << endl;
+	cin >> "Value at index 1: " << test_scores[1] << endl;
+	cin >> "Value at index 2: " << test_scores[2] << endl;
+	cin >> "Value at index 3: " << test_scores[3] << endl;
+	cin >> "Value at index 4: " << test_scores[4] << endl;
+	
+How does it work?
+
+	The name of the array represent the location of the first element in the array (index 0).
+	The [Index] represents the offset from the beginning of the array.
+	C++ simply performs a calculation to find the correct element.
+
+
+
+
+		
+
+
+	
+	
+	
+	
+	
+	
+	
 
 
 
