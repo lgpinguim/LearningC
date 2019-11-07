@@ -318,19 +318,15 @@ How does it work?
 11/07/2019 
 
 	//introduction to arrays
-
-include<iostream>
-
-using namespace std;
-
-int main(){
-
+	include<iostream>
+	using namespace std;
+	
+	int main(){
     char vowels[] {'a','e','i','o','u'}; //here we're letting the compiler figure out how many items we're going to have in our array.
 
     cout << "\nThe first vowel is: " << vowels[0] << endl;
     cout << "\nThe last vowel is: " << vowels[4] << endl;
-
- // cin >> vowels[5]; out of bound error example 
+    //cin >> vowels[5]; out of bounds error example 
 
     //overriding a value
     double hi_temps[] {90.1,89.8,77.5,81.6}; // array creation and initialization
@@ -340,9 +336,8 @@ int main(){
      hi_temps[0] = 100.7;
 
     cout << "\nThe first high temperature is: " << hi_temps[0] << endl;
-
-return 0; 
-}
+    return 0;
+    }
 
 
 
