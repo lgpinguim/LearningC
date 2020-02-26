@@ -353,9 +353,30 @@ X 0 1 2 3
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 		
+Declaring and initializing Vectors.
 
+A vector is a container in the C++ Standard Template Library.
 
+Can grow and shrink in size t execution time with similar semantics and syntax as arrays.
+
+very efficient and cn use functions like sort, reverse, find and more.
+
+	#include<vector>
+	using namespace std;
+
+	vector <char> vowels; //vector of chars
+	vector <int> test_scores; //vector of strings
+
+	vector <char> vowels (5); //vector of 5 chars
 	
+	vector <char> vowels ('a','e','i','o','u'); //vector of 5 chars
+
+Recap
+Dynamic size.
+Elements are all the same type.
+stored contiguously in memory.
+individual elements can be accessed by their position or index.
+
 	
 	
 	
