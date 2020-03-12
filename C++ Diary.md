@@ -358,9 +358,9 @@ Declaring and initializing Vectors.
 
 A vector is a container in the C++ Standard Template Library.
 
-Can grow and shrink in size t execution time with similar semantics and syntax as arrays.
+Can grow and shrink in size at execution time with similar semantics and syntax as arrays.
 
-very efficient and cn use functions like sort, reverse, find and more.
+very efficient and can use functions like sort, reverse, find and more.
 
 	#include<vector>
 	using namespace std;
@@ -378,7 +378,20 @@ Elements are all the same type.
 stored contiguously in memory.
 individual elements can be accessed by their position or index.
 
+	vector_name.push_back(element) is used to add new elemnts to the vector
+
+
+	\\here we have an exemple of vector declaration and manipulation
+	#include <vector>
+	using namespace std;
 	
+	vector<int> use_vector()
+		{
+     		std::vector<int> vec {10, 20, 30, 40, 50};
+    		vec.at(0) = 100;
+    		vec.at(4) = 1000;
+   		 return vec;
+		}
 	
 	
 	
